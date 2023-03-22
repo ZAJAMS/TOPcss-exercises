@@ -1,16 +1,15 @@
-.left .button {
-    background-color: black;
-    color: rgb(255, 255, 255);
-
-}
-
-.right .button {
-    background-color: yellow;
-
-}
-
-.button {
+.right, .left {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
+    
+}
+
+.right {
+background-color: yellow;
+}
+
+.left {
+background-color: black;
+color: white;
 
 }
